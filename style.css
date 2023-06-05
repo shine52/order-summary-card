@@ -1,7 +1,12 @@
-body {
-    background : hsl(229, 27%, 92%) url('/images/pattern-background-desktop.svg') no-repeat ;
+* {
     margin:0px;
-    font-family : "Red Hat Display";
+    padding:0px;
+    box-sizing: border-box;
+    font-family : "Red Hat Display", sans-serif;
+}
+
+body{
+    background : hsl(229, 27%, 92%) url('/images/pattern-background-desktop.svg') no-repeat ;
     font-size: 12px;
 }
 
@@ -23,14 +28,15 @@ body {
 }
 
 .title{
+    margin-top :20px;
     text-align : center;
     
 }
 
-
 .description {
     width : 250px;
     margin:auto;
+    margin-top :10px;
     margin-bottom :20px;
     text-align : center;
     font-family: RedHatDisplay-Light;
@@ -52,13 +58,13 @@ body {
 
 .midbar_mid_column {
     float:left;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .btn_proceed{
     background : hsl(245, 75%, 52%); 
     width : 320px;
-    height:25px;
+    height:35px;
     margin-top:20px ;
     margin-left:auto;
     margin-right:auto;
